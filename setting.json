@@ -1,0 +1,64 @@
+{
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.autoindent": true,
+    "vim.easymotionMarkerBackgroundColor": "grey",
+    "vim.easymotionMarkerForegroundColorOneChar": "black",
+    "vim.easymotionMarkerHeight": 24,
+    "vim.easymotionMarkerWidthPerChar": 12,
+    "vim.easymotionMarkerYOffset": 12,
+    "vim.leader": "\\",
+
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "e",
+                "s",
+                "c"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "d",
+            ],
+            "after": [
+                "g",
+                "C",
+            ]
+        },
+        {
+            "before": [
+                "=",
+                "=",
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+   ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-j>": false,
+        "<C-b>": false,
+    },
+}
